@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<APP_ICON_NAME_RESOURCE RESOURCE_ID="1000">
+		<TEXT> "TreoFlex" </TEXT>
+	</APP_ICON_NAME_RESOURCE>
+
+	<APP_VERSION_RESOURCE RESOURCE_ID="1000">
+		<TEXT> "3.5" </TEXT>
+	</APP_VERSION_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5010" COMMENT="Flag">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 14 </WIDTH>
+				<HEIGHT> 9 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5010_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<BITMAP_DENSITY> 144 </BITMAP_DENSITY>
+				<WIDTH> 28 </WIDTH>
+				<HEIGHT> 18 </HEIGHT>
+				<BIT_DEPTH> 16 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5010_X2_16.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5020" COMMENT="HR">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 156 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5020_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<WIDTH> 156 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 2 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5020_X1_2.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5030" COMMENT="Messaging">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 26 </WIDTH>
+				<HEIGHT> 21 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5030_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<BITMAP_DENSITY> 144 </BITMAP_DENSITY>
+				<WIDTH> 52 </WIDTH>
+				<HEIGHT> 42 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5030_X2_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5040" COMMENT="About Icon">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 22 </WIDTH>
+				<HEIGHT> 22 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5040_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<BITMAP_DENSITY> 144 </BITMAP_DENSITY>
+				<WIDTH> 44 </WIDTH>
+				<HEIGHT> 44 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5040_X2_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5050" COMMENT="Msg Icon">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 13 </WIDTH>
+				<HEIGHT> 42 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5050_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<BITMAP_DENSITY> 144 </BITMAP_DENSITY>
+				<WIDTH> 26 </WIDTH>
+				<HEIGHT> 84 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5050_X2_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="5060" COMMENT="Link">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 8 </WIDTH>
+				<HEIGHT> 9 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5060_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<BITMAP_DENSITY> 144 </BITMAP_DENSITY>
+				<WIDTH> 16 </WIDTH>
+				<HEIGHT> 18 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> TRUE </HAS_TRANSPARENCY>
+				<TRANSPARENT_COLOR>
+					<INDEX> 0x00 </INDEX>
+				</TRANSPARENT_COLOR>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_5060_X2_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<FORM_NAVIGATION_RESOURCE RESOURCE_ID="1000" LOCALE="enUS" COMMENT="Main">
+		<VERSION> 1 </VERSION>
+		<OBJECT_FOCUS> FALSE </OBJECT_FOCUS>
+		<APP_FOCUS> FALSE </APP_FOCUS>
+		<INITIAL_OBJECT_ID> 1010 </INITIAL_OBJECT_ID>
+		<JUMP_OBJECT_ID> 1010 </JUMP_OBJECT_ID>
+		<BOTTOMLEFT_OBJECT_ID> 0 </BOTTOMLEFT_OBJECT_ID>
+		<NAVIGATION_FORM_OBJECTS>
+			<NAVIGATION_FORM_OBJECT COMMENT="Button">
+				<OBJECT_ID> 1010 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1130 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1030 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Field">
+				<OBJECT_ID> 1130 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1120 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1010 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1120 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1110 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1130 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1110 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1100 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1120 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1100 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1080 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1110 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1080 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1070 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1100 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1070 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1060 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1080 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1060 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1050 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1070 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Field">
+				<OBJECT_ID> 1050 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1040 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1060 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1040 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1030 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1050 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+			<NAVIGATION_FORM_OBJECT COMMENT="Checkbox">
+				<OBJECT_ID> 1030 </OBJECT_ID>
+				<ABOVE_OBJECT_ID> 1010 </ABOVE_OBJECT_ID>
+				<BELOW_OBJECT_ID> 1040 </BELOW_OBJECT_ID>
+				<SKIP_OBJECT> FALSE </SKIP_OBJECT>
+				<FORCE_INTERACTION> FALSE </FORCE_INTERACTION>
+			</NAVIGATION_FORM_OBJECT>
+		</NAVIGATION_FORM_OBJECTS>
+	</FORM_NAVIGATION_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="1000" LOCALE="enUS" COMMENT="Main">
+		<FORM_ID> 1000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 0 </LEFT>
+			<TOP> 0 </TOP>
+			<WIDTH> 160 </WIDTH>
+			<HEIGHT> 160 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> FALSE </MODAL>
+		<SAVE_BEHIND> TRUE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 4000 </MENU_ID>
+		<DEFAULT_BUTTON> 1010 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> TRUE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Preferences" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON>
+				<ID> 1010 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 144 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Done" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 8005 </ID>
+				<LOCATION>
+					<X> 3 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "SMS on Calls:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX>
+				<ID> 1050 </ID>
+				<BOUNDS>
+					<LEFT> 110 </LEFT>
+					<TOP> 19 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Missed" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1040 </ID>
+				<BOUNDS>
+					<LEFT> 58 </LEFT>
+					<TOP> 19 </TOP>
+					<WIDTH> 50 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Ignored" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_GRAFFITI_STATE>
+				<LOCATION>
+					<X> 130 </X>
+					<Y> 145 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+			<FORM_CHECKBOX>
+				<ID> 1030 </ID>
+				<BOUNDS>
+					<LEFT> 75 </LEFT>
+					<TOP> 1 </TOP>
+					<WIDTH> 84 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Enable TreoFlex" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_FIELD>
+				<ID> 1060 </ID>
+				<BOUNDS>
+					<LEFT> 20 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 135 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> FALSE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> TRUE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 160 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 3 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_CHECKBOX>
+				<ID> 1120 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 125 </TOP>
+					<WIDTH> 48 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Notify:" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 2 </X>
+					<Y> 139 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5020 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BUTTON>
+				<ID> 1020 </ID>
+				<BOUNDS>
+					<LEFT> 145 </LEFT>
+					<TOP> 144 </TOP>
+					<WIDTH> 12 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\n" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_FIELD>
+				<ID> 1130 </ID>
+				<BOUNDS>
+					<LEFT> 51 </LEFT>
+					<TOP> 125 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> TRUE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> TRUE </NUMERIC>
+				<MAX_CHARS> 16 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_POPUP>
+				<CONTROL_ID> 1000 </CONTROL_ID>
+				<LIST_ID> 1001 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST>
+				<ID> 1090 </ID>
+				<BOUNDS>
+					<LEFT> 105 </LEFT>
+					<TOP> 71 </TOP>
+					<WIDTH> 50 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 4 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "- Disabled -" </TEXT>
+					<TEXT> "5 seconds" </TEXT>
+					<TEXT> "10 seconds" </TEXT>
+					<TEXT> "15 seconds" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 1080 </CONTROL_ID>
+				<LIST_ID> 1090 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1080 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 82 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LABEL>
+				<ID> 1002 </ID>
+				<LOCATION>
+					<X> 4 </X>
+					<Y> 82 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Confirm Before Send:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX>
+				<ID> 1110 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 109 </TOP>
+					<WIDTH> 151 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mobiles Only (Label In Contacts)" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1100 </ID>
+				<BOUNDS>
+					<LEFT> 18 </LEFT>
+					<TOP> 95 </TOP>
+					<WIDTH> 120 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Default [Cancel] In Dialog" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> TRUE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1070 </ID>
+				<BOUNDS>
+					<LEFT> 18 </LEFT>
+					<TOP> 69 </TOP>
+					<WIDTH> 140 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Use Contacts Note If Available" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 4 </X>
+					<Y> 35 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5050 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 94 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5060 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 2 </X>
+					<Y> 122 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5020 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_CHECKBOX>
+				<ID> 1140 </ID>
+				<BOUNDS>
+					<LEFT> 48 </LEFT>
+					<TOP> 144 </TOP>
+					<WIDTH> 79 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Enable Logging" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2000" COMMENT="Confirm">
+		<FORM_ID> 2000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 80 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 78 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> TRUE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "TreoFlex Confirmation" </TEXT>
+			</FORM_TITLE>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 4 </X>
+					<Y> 15 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5040 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BUTTON>
+				<ID> 2010 </ID>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 61 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Send" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON>
+				<ID> 2020 </ID>
+				<BOUNDS>
+					<LEFT> 49 </LEFT>
+					<TOP> 61 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancel" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 2030 </ID>
+				<LOCATION>
+					<X> 33 </X>
+					<Y> 37 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "[No Caller ID] 012345678" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1000 </ID>
+				<LOCATION>
+					<X> 33 </X>
+					<Y> 20 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Send Message To:" </TEXT>
+			</FORM_LABEL>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="3000" COMMENT="About">
+		<FORM_ID> 3000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> TRUE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "About TreoFlex" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL>
+				<ID> 1000 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 32 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> LARGE_BOLD_FONT </FONT_ID>
+				<TEXT> "TreoFlex" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 3020 </ID>
+				<LOCATION>
+					<X> 80 </X>
+					<Y> 35 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "v3.1b1 [Freeware]" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1002 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 70 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Copyright © 2006-08 MVK" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1003 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 57 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "A Messaging Auto-Responder" </TEXT>
+			</FORM_LABEL>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 4 </X>
+					<Y> 29 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5040 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BUTTON>
+				<ID> 3010 </ID>
+				<BOUNDS>
+					<LEFT> 32 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 6140 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 118 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "www.swCP3.com/TreoTown" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1001 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 83 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "All Rights Reserved" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1004 </ID>
+				<LOCATION>
+					<X> 31 </X>
+					<Y> 96 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Do Not Redistribute" </TEXT>
+			</FORM_LABEL>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 71 </X>
+					<Y> 15 </Y>
+				</LOCATION>
+				<BITMAP_ID> 5010 </BITMAP_ID>
+			</FORM_BITMAP>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="4000" COMMENT="Main Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU>
+				<TITLE> "TreoFlex" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 4011 </ID>
+						<TITLE> "Done" </TITLE>
+						<COMMAND> "Q" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU>
+				<TITLE> "Edit" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 10000 </ID>
+						<TITLE> "Undo" </TITLE>
+						<COMMAND> "U" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10001 </ID>
+						<TITLE> "Cut" </TITLE>
+						<COMMAND> "X" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10002 </ID>
+						<TITLE> "Copy" </TITLE>
+						<COMMAND> "C" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10003 </ID>
+						<TITLE> "Paste" </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10004 </ID>
+						<TITLE> "Select All" </TITLE>
+						<COMMAND> "S" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10005 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10006 </ID>
+						<TITLE> "Keyboard" </TITLE>
+						<COMMAND> "K" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10007 </ID>
+						<TITLE> "Keyboard Help" </TITLE>
+						<COMMAND> "G" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU>
+				<TITLE> "Help" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 0 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 4031 </ID>
+						<TITLE> "Instructions" </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 4000 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 4032 </ID>
+						<TITLE> "About TreoFlex" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="6000">
+		<TEXT>
+			"By selecting \"Use Contacts Note If Available\" any note entered in the Contacts Note between &lt;tf> and &lt;/tf> can be used as messaging text in case a call is received from that particular contact. e.g., &lt;tf>Sorry I missed your call. I call back ASAP.&lt;/tf>\n\nA messaging confirmation dialog can be displayed after an ignored or missed call for the selected number of seconds. Otherwise, the message will be sent immediately after call termination.\n\nThe default selection in the confirmation dialog can be [Cancel], in which case, the messaging operation will be cancelled after the timeout.\n\nBy selecting the \"Mobiles Only\" checkbox, one can selectively message contacts whose incoming numbers are labled as \"Mobile\" in the contacts application. Otherwise messaging will occur for all phone numbers.\n\nThe \"Notify\" feature will message the missed call details to a third phone whose number is specified in the adjacent field. The phone number is not checked for errors, so, you need to "
+			"ensure that the number is accurate. DO NOT USE THIS FEATURE TO SPY ON OTHERS.\n\nThe following \"tokens\" in a message string will be replaced by the corresponding string values:\n\n^0 - Time in system format\n^1 - Date in system format\n^2 - First Name\n^3 - Last Name\n^4 - Title\n^5 - Company\n^6 - Custom 1\n^7 - Custom 2\n^8 - Custom 3\n^9 - Custom 4\n\nTreoFlexSelect:\n\nYou can use TreoFlexSelect to quickly edit, save and select messages for use with TreoFlex. TreoFlexSelect also has other options including a timed-enable feature and TreoFlex log viewer.\n\nACKNOWLEGEMENTS:\n\nThanks to Dr. Bradley Krasne for suggestions, help and partially funding the development of TreoFlex.\n\nCopyright (c) 2006-08 MVK\n\nPlease donate and support freeware.\n\nSee: www.swCP3.com/TreoTown/\n"
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>
